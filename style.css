@@ -184,6 +184,14 @@ html, body {
 }
 
 @media(max-width:768px){
+
+    
+    html, body {
+        height: auto;
+        overflow: auto;
+    }
+        
+    
     .headcontainer{
         padding: 10px 16px;
         height: auto;
@@ -213,6 +221,7 @@ html, body {
        float: none;
        width: 100vw;
        height: auto;
+       padding: 3vh 6vw 2vh 6vw;
     }
 
     .left h1{
@@ -227,9 +236,8 @@ html, body {
 
     .left a{
         margin-top: 2vh;
-        font-size: 2vw;
-        padding: 0.8vh 1vw;
-
+        font-size: 3.5vw;
+        padding: 1.2vh 5vw;
     }
 
     .right{
@@ -246,5 +254,3 @@ html, body {
         object-fit: contain;
     }
 }
-
-
