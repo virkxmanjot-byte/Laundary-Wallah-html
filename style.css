@@ -139,4 +139,112 @@ html, body {
     border-radius: 12px;
 }
 
+@media (max-width:1024px){
+   .headcontainer{
+    padding: 0 20px;
+   }   
+   .img img{
+    width: 60px;
+   }
+
+   .buttoncontainer a{
+    font-size: 16px;
+    margin: 0 10px;
+
+   }
+
+   .user a{
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 6px;
+   }
+
+   .left h1{
+    font-size: 4vw;
+   }
+
+   .left p{
+    font-size: 1.8vw;
+    margin-top: 1.5vh;
+   }
+
+   .left a{
+    margin-top: 2vh;
+    font-size: 1.8vw;
+    padding: 1vh 1.8vw;
+   }
+
+   
+   
+   .right img{
+    height: 75vh;
+
+   }
+   
+}
+
+@media(max-width:768px){
+    .headcontainer{
+        padding: 10px 16px;
+        height: auto;
+    }
+
+    .buttoncontainer{
+        display: none;
+    }
+
+    .img img{
+        width: 50px;
+    }
+
+    .buttoncontainer a{
+        font-size: 13px;
+        margin: 0 10px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        overflow: visible;
+    }
+
+    .left {
+       float: none;
+       width: 100vw;
+       height: auto;
+    }
+
+    .left h1{
+        font-size: 5vw;
+    }
+    
+    .left p{
+        font-size: 3.5vw;
+        margin-top: 1.5vh;
+        
+    }
+
+    .left a{
+        margin-top: 2vh;
+        font-size: 2vw;
+        padding: 0.8vh 1vw;
+
+    }
+
+    .right{
+        float: none;
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .right img{
+        top: 0;
+        left: 5vw;
+        width: 90%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
 
