@@ -139,7 +139,27 @@ html, body {
     height: 80vh;
     object-fit: cover;
     border-radius: 12px;
+    animation: orbitSqueeze 6s ease-in-out  infinite  ;
 }
+
+@keyframes orbitSqueeze {
+    0% {
+        transform: translate(0px, 0px) scaleX(1) scaleY(1);
+    }
+    25% {
+        transform: translate(15px, -20px) scaleX(0.95) scaleY(1.05);
+    }
+    50% {
+        transform: translate(0px, -35px) scaleX(0.9) scaleY(0.95);
+    }
+    75% {
+        transform: translate(-15px, -20px) scaleX(1.05) scaleY(0.95);
+    }
+    100% {
+        transform: translate(0px, 0px) scaleX(1) scaleY(1);
+    }
+}
+
 
 @media (max-width:1024px){
    .headcontainer{
