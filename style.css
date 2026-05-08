@@ -114,10 +114,12 @@ html, body {
     padding: 1.2vh 2vw;
     border-radius: 10px;
     font-family: sans-serif;
+    transition: 0.3s;
 }
 
 .left a:hover {
     opacity: 0.85;
+     transform: rotate(-5deg);
 }
 
 /* RIGHT div — image */
